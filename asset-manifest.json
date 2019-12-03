@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/Artem2313/goit-react-hw-01-components/static/js/main.3918ac4b.chunk.js",
+    "main.js.map": "/Artem2313/goit-react-hw-01-components/static/js/main.3918ac4b.chunk.js.map",
+    "runtime-main.js": "/Artem2313/goit-react-hw-01-components/static/js/runtime-main.24d88d27.js",
+    "runtime-main.js.map": "/Artem2313/goit-react-hw-01-components/static/js/runtime-main.24d88d27.js.map",
+    "static/js/2.054d3efb.chunk.js": "/Artem2313/goit-react-hw-01-components/static/js/2.054d3efb.chunk.js",
+    "static/js/2.054d3efb.chunk.js.map": "/Artem2313/goit-react-hw-01-components/static/js/2.054d3efb.chunk.js.map",
+    "index.html": "/Artem2313/goit-react-hw-01-components/index.html",
+    "precache-manifest.3b157ed36f0446f51cbb4f3199566321.js": "/Artem2313/goit-react-hw-01-components/precache-manifest.3b157ed36f0446f51cbb4f3199566321.js",
+    "service-worker.js": "/Artem2313/goit-react-hw-01-components/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24d88d27.js",
+    "static/js/2.054d3efb.chunk.js",
+    "static/js/main.3918ac4b.chunk.js"
+  ]
+}
