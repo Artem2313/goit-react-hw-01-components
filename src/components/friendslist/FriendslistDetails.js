@@ -11,10 +11,10 @@ const FriendslistDetails = ({ avatar, isOnline, name, alt }) => (
       style={{ color: isOnline === true ? 'red' : 'green' }}
       className={classes.circle}
     >
-      {isOnline} <FontAwesomeIcon icon={faCircle} />
+      <FontAwesomeIcon icon={faCircle} />
     </span>
-    <img className="avatar" src={avatar} alt={alt} width="48" />
-    <p className="name">{name}</p>
+    <img className={classes.avatar} src={avatar} alt={alt} width="48" />
+    <p className={classes.name}>{name}</p>
   </li>
 );
 

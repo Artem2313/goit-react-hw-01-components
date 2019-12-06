@@ -2,9 +2,10 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import TransactionHistoryDetails from './TransactionHistoryDetails';
+import classes from './Transaction.module.css';
 
 const TransactionHistory = ({ items = [] }) => (
-  <table className="transaction-history">
+  <table className={classes.tablemain}>
     <thead>
       <tr>
         <th>Type</th>
