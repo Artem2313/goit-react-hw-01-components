@@ -1,24 +1,14 @@
 /* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
+import generateColor from './RandomColor';
+import classes from './Statistic.module.css';
 
 const StatisticalDetails = ({ label, percentage }) => (
   <>
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-    </li>
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-    </li>
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
-    </li>
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+    <li className={classes.item} style={{ backgroundColor: generateColor() }}>
+      <span className={classes.label}>{label}</span>
+      <span className={classes.percentage}>{percentage}%</span>
     </li>
   </>
 );

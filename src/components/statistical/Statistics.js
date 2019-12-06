@@ -2,12 +2,13 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import StatisticalDetails from './StatisticalDetails';
+import classes from './Statistic.module.css';
 
 const Statistics = ({ items = [] }, { title = 'File upload' }) => (
-  <section className="statistics">
-    {title.length > 0 && <h2 className="title">{title}</h2>}
+  <section className={classes.statistics}>
+    {title.length > 0 && <h2 className={classes.title}>{title}</h2>}
 
-    <ul className="stat-list">
+    <ul className={classes.stat_list}>
       {items.map(item => (
         <Fragment key={item.id}>
           <StatisticalDetails {...item} />
