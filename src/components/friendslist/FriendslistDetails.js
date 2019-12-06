@@ -8,7 +8,7 @@ import classes from './Friendslist.module.css';
 const FriendslistDetails = ({ avatar, isOnline, name, alt }) => (
   <li className={classes.item}>
     <span
-      style={{ color: isOnline === true ? 'red' : 'green' }}
+      style={{ color: isOnline === true ? 'green' : 'red' }}
       className={classes.circle}
     >
       <FontAwesomeIcon icon={faCircle} />
